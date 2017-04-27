@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Me</title>
+    <title>Christopher Huynh</title>
     <%= csrf_meta_tags %>
-
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
+ <nav>
+ <div class="nav-wrapper">
+  <a href="/" class="brand-logo">Christopher Huynh</a>
+  <ul id="nav-mobile" class="right">
+  <li> <%= link_to 'About', about_index_path %> </li>
+  <li><%= link_to 'Contact', contact_index_path %></li>
+  </ul>
+  </nav>
   <body>
+
+
+
+
+
+
+
+
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <%= yield %>
   </body>
 </html>

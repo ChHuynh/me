@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+
+<body>
+<div class="row">
+<div class="col s2">
+    	<%= image_tag "suit.jpg", class: "circle responsive-img" %>
+</div>
+	<div class="about-me col s10">
+		<p>
+    	<h4> about me </h4>
+
+    	<ul>
+    	<li> I am a Bay Area native Looking for opportunities to learn and grow as an individual. </li>
+    	<li>Aspiring Full Stack developer with a passion for technology</li>
+    	<li>also loves sushi</li>
+    	</ul>
+    	</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="skills col s6">
+  	<h4> Skills </h4>
+ 		<ul>
+ 		<h5>Programing</h5>
+ 		<li> Ruby, Javascript, HTML, CSS, SQlite, Postgresql, Jquery, AJAX, Materialize, Bootstrap</li>
+ 		<h5>Practices</h5>
+ 		<li> Pair Programing, Agile Development, Git, Test Driven Development </li>
+  	</ul>
+  </div>
+
+	<div class="education col s6">
+	<h4> Education </h4>
+	<ul>
+	<h5>Dev Bootcamp</h5>
+	<li>Full stack immersive program, completed in 2017</li>
+	<h5>University Wisconsin-Madison</h5>
+		<li>Bachelors degree in East Asian Studies, graduated 2013</li>
+	</ul>
+
+	</div>
+
+	<div class="projects col s6">
+	<h4> Projects </h4>
+	 <h5>Mission Trail</h5> April 2017 <%=link_to("source code","https://github.com/ChHuynh/mission-trail") %>
+		<p>A game built on Ruby on rails based on the MS DOS and Atari game Oregon Trail with a modern twist, a satirical take on the struggles of the millennial. Developed in a week and half as a group collaboration between 3 others. Deployed to Heroku.</p>
+		<li> Developed the schema for the database, designed for ease of senario creation and development</li>
+		<li> Back enddevelopment on phone pages, as well as leaderboard</li>
+		<li> Lead debugger </li>
+		<li> Wrote multiple events that are used within the game </li>
+		<li> Created art assets and integrated them into the game using CSS and HTML </li>
+
+		<h5> Newsy </h5> March 2017 <%= link_to("source code", "https://github.com/ChHuynh/newsy")%>
+		<p> A news aggregation site built using Sinatra using news api to display the latest news headlines of multiple news sources. Users can create an account and customize their newsfeed.</p>
+		<li> Implemented database gathering with news api to hold more than just the latest news from various sources</li>
+		<li> Used bootstrap and CSS to ensure responsiveness on multiple devices </li>
+		<li> Implemented session based authentication </li>
+	</div>
+	
+
+	<div class="employment col s6">
+	<h4>Employment</h4>
+
+	<h5>Waste Management</h5>Operations Specialist October 2013 - November 2016
+	<li> Maintained Database of truck information, with daily usage, miles driven, mechanical history, etc</li>
+	<li> Streamlined Truck dumping processes, reducing idle time for drivers accumulating in hundreds of hours of increased productivity per month</li>
+	<li> Trained trycjdrivers to use on-board tablets to improve accuracy and rate of real-time reporting</li>
+	<li> Collaborated with Route Managers and Dispatchers to create efficient route maps </li>
+	<li> ensured safe workplace standards by maintaining weekly safety meeting materials for truck drivers</li>
+	
+	<h5>Jamba Juice</h5>Team member 2012 2013
+	<li> Part of the team that was consistently at the lead in customer satisfaction and sales in the wisconsin area</li>
+	<li> Memorized a list of over 30 recipes quickly and able to said menu items</li>
+	<li> Communicated with customers to deliver quality product tailored to customers needs on a daily basis</li>
+	<li> Collaborated with colleagues to improve workplace communication and workflow, improving efficiency and customer satisfaction</li>
+	</div>
+
+	</div>
+</body>
+</html>
